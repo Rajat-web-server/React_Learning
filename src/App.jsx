@@ -10,20 +10,25 @@ import { Things } from './Product'
 export {Greetings} from './Greetings.jsx'
 import { Usercard } from './UserCard.jsx'
 import { Cardwrapper } from './CardWrapper.jsx'
-
-
 import './App.css'
 import { Greetings } from './Greetings.jsx'
+import { Userdetails } from './userDetails.jsx'
 
 
 function App() {
   return (
     <div>
+
+    <Userdetails name={"Anthony"} isOnline={false} hideOffline={true}/>
+    <Userdetails name={"Dripter"} isOnline={true} isNewuser={false} isPremium={true}/>
+    <Userdetails name={"sulfer"} isOnline={true} isNewuser={false} isPremium={true} role="admin"/>
+ 
+
       {/* <Name />
       <StyleEg />
       
       <ContactForm /> */}
-      < Cardwrapper name="User Card" child="child" >
+      {/* < Cardwrapper name="User Card" child="child" >
       <p>This is the nested content we write here</p>
         
       </Cardwrapper>
@@ -34,7 +39,7 @@ function App() {
       <Welcome name="Bruce" alias="Batman" />
         <Things name="Laptop" price="$500" added={true} Categories={
           ["car, samosa"]
-        } />
+        } /> */}
 
 
       {/* <Welcome name="rathod" />
