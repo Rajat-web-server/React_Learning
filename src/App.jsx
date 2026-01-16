@@ -16,15 +16,21 @@ import { Userdetails } from './userDetails.jsx'
 import { CarsList, ToysList } from './toysList.jsx'
 import { One } from './style.jsx'
 import { Boxes } from  './keyList.jsx'
+import { Event } from './event.jsx';
+import { Counter } from './counter.jsx'
+import { Logincard } from './loggingCard.jsx'
 
 
 function App() {
   return (
     <div>
+      <Logincard />
+      <Counter />
+      {/* <Event on ={true}/>
       <Boxes />
      <ToysList />
      <CarsList />
-     <One />
+     <One /> */}
 
     {/* <Userdetails  name={"Anthony"} isOnline={false} hideOffline={true}/>
     <Userdetails name={"Dripter"} isOnline={true} isNewuser={false} isPremium={true}/>
