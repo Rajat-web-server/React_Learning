@@ -13,17 +13,22 @@ import { Cardwrapper } from './CardWrapper.jsx'
 import './App.css'
 import { Greetings } from './Greetings.jsx'
 import { Userdetails } from './userDetails.jsx'
-import { CarsList } from './toysList.jsx'
+import { CarsList, ToysList } from './toysList.jsx'
+import { One } from './style.jsx'
+import { Boxes } from  './keyList.jsx'
 
 
 function App() {
   return (
     <div>
+      <Boxes />
+     <ToysList />
      <CarsList />
+     <One />
 
-    <Userdetails name={"Anthony"} isOnline={false} hideOffline={true}/>
+    {/* <Userdetails  name={"Anthony"} isOnline={false} hideOffline={true}/>
     <Userdetails name={"Dripter"} isOnline={true} isNewuser={false} isPremium={true}/>
-    <Userdetails name={"sulfer"} isOnline={true} isNewuser={false} isPremium={true} role="admin"/>
+    <Userdetails name={"sulfer"} isOnline={true} isNewuser={false} isPremium={true} role="admin"/> */}
  
 
       {/* <Name />

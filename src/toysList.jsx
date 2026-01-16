@@ -1,23 +1,23 @@
-// export const ToysList = ()=>{
-//     const toys =["car", "doll", "ball", "puzzle", "teddy bear"];
+export const ToysList = () => {
+    const toys = ["car", "doll", "ball", "puzzle", "teddy bear"];
 
-//     return (
-//         <div>
-//             {toys.map((toy) => (
-//                 <p>{toy}</p>
-//             ))}
-//         </div>
-//     )
-// }
+    return (
+        <div>
+            {toys.map((toy) => (
+                <p>{toy}</p>
+            ))}
+        </div>
+    )
+}
 
-export const CarsList =()=>{
-    const cars = ["maruti", "suzuki","bmw","porsche"]
-    return(
+export const CarsList = () => {
+    const cars = ["maruti", "suzuki", "bmw", "porsche"];
+    return (
         <div>
             {
-                cars.map((car)=>{
-                    <h1>{car}</h1>
-})
+                cars.map((car) => (
+                    <h1 className="bg-amber-500">{car}</h1>
+                ))
             }
         </div>
     )
