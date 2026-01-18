@@ -19,12 +19,14 @@ import { Boxes } from  './keyList.jsx'
 import { Event } from './event.jsx';
 import { Counter } from './counter.jsx'
 import { Logincard } from './loggingCard.jsx'
+import { Input } from './input.jsx'
 
 
 function App() {
   return (
     <div>
       <Logincard />
+      <Input />
       <Counter />
       {/* <Event on ={true}/>
       <Boxes />
