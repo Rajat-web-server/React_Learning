@@ -7,7 +7,6 @@ import { ContactForm } from './rule2'
 import { StyleEg} from './rule3'
 import { Name } from './rule4.jsx'
 import { Things } from './Product'
-export {Greetings} from './Greetings.jsx'
 import { Usercard } from './UserCard.jsx'
 import { Cardwrapper } from './CardWrapper.jsx'
 import './App.css'
@@ -17,17 +16,17 @@ import { CarsList, ToysList } from './toysList.jsx'
 import { One } from './style.jsx'
 import { Boxes } from  './keyList.jsx'
 import { Event } from './event.jsx';
-import { Counter } from './counter.jsx'
+
 import { Logincard } from './loggingCard.jsx'
 import { Input } from './input.jsx'
-
+import {Counter}from './simpleCounter.jsx'
 
 function App() {
   return (
     <div>
-      <Logincard />
-      <Input />
-      <Counter />
+
+      <Counter/>
+      
       {/* <Event on ={true}/>
       <Boxes />
      <ToysList />
