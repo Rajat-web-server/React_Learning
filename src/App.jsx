@@ -1,10 +1,10 @@
 import Welcome from './Welcome'
 import Button from './Button'
-import { Card , Cardwithoutjsx }  from './Card'
-import { Numb, Numbwithoutjsx,Single, Singlewithoutjsx } from './numb'
+import { Card, Cardwithoutjsx } from './Card'
+import { Numb, Numbwithoutjsx, Single, Singlewithoutjsx } from './numb'
 import { UserProfile } from './rule1'
 import { ContactForm } from './rule2'
-import { StyleEg} from './rule3'
+import { StyleEg } from './rule3'
 import { Name } from './rule4.jsx'
 import { Things } from './Product'
 import { Usercard } from './UserCard.jsx'
@@ -14,29 +14,29 @@ import { Greetings } from './Greetings.jsx'
 import { Userdetails } from './userDetails.jsx'
 import { CarsList, ToysList } from './toysList.jsx'
 import { One } from './style.jsx'
-import { Boxes } from  './keyList.jsx'
+import { Boxes } from './keyList.jsx'
 import { Event } from './event.jsx';
 
 import { Logincard } from './loggingCard.jsx'
 import { Input } from './input.jsx'
-import {Counter}from './simpleCounter.jsx'
+import { PrevStateCounter } from './PrevstateCounter.jsx'
 
 function App() {
   return (
     <div>
 
-      <Counter/>
-      
+      <PrevStateCounter />
+
       {/* <Event on ={true}/>
       <Boxes />
      <ToysList />
      <CarsList />
      <One /> */}
 
-    {/* <Userdetails  name={"Anthony"} isOnline={false} hideOffline={true}/>
+      {/* <Userdetails  name={"Anthony"} isOnline={false} hideOffline={true}/>
     <Userdetails name={"Dripter"} isOnline={true} isNewuser={false} isPremium={true}/>
     <Userdetails name={"sulfer"} isOnline={true} isNewuser={false} isPremium={true} role="admin"/> */}
- 
+
 
       {/* <Name />
       <StyleEg />
