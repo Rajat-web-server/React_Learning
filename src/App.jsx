@@ -19,13 +19,13 @@ import { Event } from './event.jsx';
 
 import { Logincard } from './loggingCard.jsx'
 import { Input } from './input.jsx'
-import { BatchingCounter } from './BatchingCounter.jsx'
+import { ObjectProfile } from './objectProfile.jsx'
 
 function App() {
   return (
     <div>
 
-      <BatchingCounter />
+      <ObjectProfile />
 
       {/* <Event on ={true}/>
       <Boxes />
