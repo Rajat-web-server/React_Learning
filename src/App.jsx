@@ -20,12 +20,13 @@ import { Event } from './event.jsx';
 import { Logincard } from './loggingCard.jsx'
 import { Input } from './input.jsx'
 import { ObjectProfile } from './objectProfile.jsx'
+import Counter from './useReducer.jsx'
+import { CounterWithReducer } from './counterWithReducer.jsx'
 
 function App() {
   return (
     <div>
-
-      <ObjectProfile />
+      < CounterWithReducer />
 
       {/* <Event on ={true}/>
       <Boxes />
