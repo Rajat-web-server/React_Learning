@@ -23,50 +23,14 @@ import { ObjectProfile } from './objectProfile.jsx'
 
 import { CounterWithReducer } from './counterWithReducer.jsx'
 import { Reducer_counter } from './useReducerEx1.jsx'
+import { Person } from './useReducer2.jsx'
 
 function App() {
   return (
     <div>
-      <Reducer_counter/>
+      <Person/>
 
-      {/* <Event on ={true}/>
-      <Boxes />
-     <ToysList />
-     <CarsList />
-     <One /> */}
-
-      {/* <Userdetails  name={"Anthony"} isOnline={false} hideOffline={true}/>
-    <Userdetails name={"Dripter"} isOnline={true} isNewuser={false} isPremium={true}/>
-    <Userdetails name={"sulfer"} isOnline={true} isNewuser={false} isPremium={true} role="admin"/> */}
-
-
-      {/* <Name />
-      <StyleEg />
-      
-      <ContactForm /> */}
-      {/* < Cardwrapper name="User Card" child="child" >
-      <p>This is the nested content we write here</p>
-        
-      </Cardwrapper>
-      <Usercard />
-      <Greetings name="raju" message="Good Morning"/>
-      <Greetings />
-      <h1>Hello, React!</h1>
-      <Welcome name="Bruce" alias="Batman" />
-        <Things name="Laptop" price="$500" added={true} Categories={
-          ["car, samosa"]
-        } /> */}
-
-
-      {/* <Welcome name="rathod" />
-      <Welcome name="Rana" /> */}
-      {/* <Single/>
-      <Singlewithoutjsx/>
-      <UserProfile/>
-      <Card />
-      <Cardwithoutjsx />
-      
-      <Button /> */}
+   
     </div>
 
   )
