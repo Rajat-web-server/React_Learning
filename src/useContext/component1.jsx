@@ -1,6 +1,6 @@
 import { Component2 } from "./comnponent2"
 
-export function Component1(props){
+export function Component1(){
 
 
     return (
@@ -10,7 +10,7 @@ export function Component1(props){
             
             
             <h1>Component1</h1>
-            <Component2 name={props.name}/>
+            <Component2/>
         </div>
     )
 }
