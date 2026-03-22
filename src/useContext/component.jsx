@@ -1,7 +1,8 @@
 import { Component1 } from "./component1"
-import { useState, createContext } from "react"
+import { useState } from "react"
+import { UserContext } from "./userContext"
 
-export const UserContext = createContext();
+
 export function Component() {
     const [name, setname] = useState("DripTex")
     return (
@@ -10,7 +11,7 @@ export function Component() {
         >
             <h1>Component</h1>
             <p>{`Hello ${name}`}</p>
-            <UserContext.Provider value={name}>
+            <UserContext.Provider value={[name, setname]}>
                 <Component1  />
             </UserContext.Provider>
         </div>
